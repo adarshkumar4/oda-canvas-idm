@@ -113,8 +113,7 @@ keycloak:
     hosts:
       - name: keycloak.local
         path: /
-        # tls: 
-        #   - secretName: keycloak-tls
+        tls: false
 
 component-operator:
   deployment:
